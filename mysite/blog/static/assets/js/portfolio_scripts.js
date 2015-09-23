@@ -1,6 +1,6 @@
 /*
  Author: Thank
- Template: ukieCard
+ Template: thank
  Version: 1.0
  
  */
