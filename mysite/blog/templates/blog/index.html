@@ -1,0 +1,133 @@
+{% extends "blog/base.html" %}
+{% load staticfiles %}
+<meta charset="utf-8" />
+{% block content %}
+	<!-- Start Home-header section -->
+	<section class="home-header border-bottom padding-block">
+	    <!-- start container -->
+	    <div class="container">
+	        <!-- start row -->
+	        <div class="row">
+	            <div class="col-xs-12 col-sm-5 col-lg-5 text-right">
+	                <!-- Your foto -->
+	                <div class="foto">
+	                    <img alt="Thank" src="{% static "assets/img/photo.jpg" %}" />
+	                </div>
+	                <!-- end your foto -->
+	            </div>
+	            <div class="col-xs-12 col-sm-7 col-lg-7">
+	                <!-- Your Name -->
+	                <h1 class="title">Than Do</h1>
+	                <!-- Your Profession -->
+	                <h3 class="sub-title">Web Designer & Mobile Application Developer</h3>
+	                <!-- social icon -->
+	                <div class="social">
+	                    <ul class="animated" data-animation="fadeIn" data-animation-delay="600">
+	                        <!-- social icons -->
+	                        <li><a class="ukie-icons hover-animate" href="https://www.facebook.com/morethanicansay"><i class="fa fa-facebook"></i></a></li>
+	                        <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-twitter"></i></a></li>
+	                        <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-linkedin"></i></a></li>
+	                        <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-google-plus"></i></a></li>
+	                        <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-dribbble"></i></a></li>
+	                        <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-youtube"></i></a></li>
+	                        <!--
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-behance"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-pinterest"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-digg"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-deviantart"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-envelope-square"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-delicious"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-dropbox"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-skype"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-tumblr"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vimeo-square"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-flickr"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-github-alt"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-renren"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vk"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-xing"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-weibo"></i></a></li>
+	                            <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-rss"></i></a></li>
+	                        -->
+	                    </ul>
+	                </div>
+	                <!-- end social icon -->
+	            </div>
+	        </div>
+	        <!-- end row -->
+	    </div>
+	    <!-- end container -->
+	</section>
+	<!-- End Home-header section -->
+	
+	<!-- Start Menu section -->
+	<nav class="menu">
+	    <!-- start container -->
+	    <div class="container">
+	        <!-- start row -->
+	        <div class="row">
+	            <div class="col-xs-12 col-sm-12 col-lg-12">
+	
+	                <!-- start menu block (profile) -->
+	                <a href="profile" class="menu-li">
+	                    <!-- img menu block -->
+	                    <span class="foto">
+	                        <img src="{% static "assets/img/menu/profile.png" %}" class="menu-img" data-img-name="profile" alt="Thank">
+	                    </span>
+	                    <!-- name menu block -->
+	                    <span class="name">Profile</span>
+	                </a>
+	                <!-- end menu block (profile) -->
+	
+	                <!-- start menu block (resume) -->
+	                <a href="resume" class="menu-li">
+	                    <!-- img menu block -->
+	                    <span class="foto">
+	                        <img src="{% static "assets/img/menu/resume.png" %}" class="menu-img" data-img-name="resume" alt="Thank">
+	                    </span>
+	                    <!-- name menu block -->
+	                    <span class="name">Resume</span>
+	                </a>
+	                <!-- end menu block (resume) -->
+	
+	                <!-- start menu block (portfolio) -->
+	                <a href="portfolio" class="menu-li">
+	                    <!-- img menu block -->
+	                    <span class="foto">
+	                        <img src="{% static "assets/img/menu/portfolio.png" %}" class="menu-img" data-img-name="portfolio" alt="Thank">
+	                    </span>
+	                    <!-- name menu block -->
+	                    <span class="name">Portfolio</span>
+	                </a>
+	                <!-- end menu block (portfolio) -->
+	
+	                <!-- start menu block (blog) -->
+	                <a href="blog" class="menu-li">
+	                    <!-- img menu block -->
+	                    <span class="foto">
+	                        <img src="{% static "assets/img/menu/blog.png" %}" class="menu-img" data-img-name="blog" alt="Thank">
+	                    </span>
+	                    <!-- name menu block -->
+	                    <span class="name">Blog</span>
+	                </a>
+	                <!-- end menu block (portfolio) -->
+	
+	                <!-- start menu block (contact) -->
+	                <a href="contact" class="menu-li">
+	                    <!-- img menu block -->
+	                    <span class="foto">
+	                        <img src="{% static "assets/img/menu/contact.png" %}" class="menu-img" data-img-name="contact" alt="Thank">
+	                    </span>
+	                    <!-- name menu block -->
+	                    <span class="name">Contact</span>
+	                </a>
+	                <!-- end menu block (contact) -->
+	            </div>
+	        </div>
+	        <!-- end row -->
+	    </div>
+	    <!-- end container -->
+	</nav>
+	<!-- End Menu section -->
+{% endblock content %}
