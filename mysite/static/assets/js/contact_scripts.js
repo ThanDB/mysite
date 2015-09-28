@@ -19,7 +19,7 @@ $(document).ready(function(){
     function initialize_map() {
 
         if ($('.map').length) {
-            var myLatLng = new google.maps.LatLng(39.987686, -82.970916);
+            var myLatLng = new google.maps.LatLng(20.9805002, 105.800877);
             var mapOptions = {
                 zoom: 7,
                 center: myLatLng,
@@ -34,7 +34,7 @@ $(document).ready(function(){
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'Thank',
+                title: 'Hanoi, Vietnam',
                 icon: 'static/assets/img/marker-' + $('#stylesheet-new').attr('data-color') + '.png'
             });
         } else {
