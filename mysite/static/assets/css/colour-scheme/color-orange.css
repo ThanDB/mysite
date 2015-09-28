@@ -19,12 +19,12 @@ body {
     /* background-color: #383231; */
     /* background-color: #ffffff; */
 }
-.ukie-icons {
+.site-icons {
     color: #ffffff;
     border-color: #ffab00;
     background-color: #ffc400;
 }
-.ukie-icons:hover{
+.site-icons:hover{
     background-color: #ffab00;
     color: #ffffff;
 }
@@ -83,7 +83,7 @@ body {
 .footer a{
     color: #000000;
 }
-.footer .ukie-icons{
+.footer .site-icons{
     border-color: #d6d6d6;
     background-color: #f5f5f5;
     color: #d6d6d6;
@@ -91,7 +91,7 @@ body {
 .footer a:hover{
     color: #ffc400;
 }
-.footer a:hover .ukie-icons{
+.footer a:hover .site-icons{
     border-color: #ffab00;
     background-color: #ffc400;
     color: #ffffff;

@@ -127,7 +127,7 @@ a:hover, a:visited, a:focus, a:active{
     display: inline-block;
     list-style: none;
 }
-.ukie-icons {
+.site-icons {
     display: inline-block;
     font-size: 16px;
     width: 36px;
@@ -139,10 +139,10 @@ a:hover, a:visited, a:focus, a:active{
     border-style: solid;
     border-width: 1px;
 }
-.ukie-icons:first-child{
+.site-icons:first-child{
     margin-left: 0px;
 }
-.ukie-icons:hover{
+.site-icons:hover{
 }
 .btn{
     border-style: solid;
@@ -274,11 +274,11 @@ a:hover, a:visited, a:focus, a:active{
 }
 .footer a{
 }
-.footer .ukie-icons{
+.footer .site-icons{
 }
 .footer a:hover{
 }
-.footer a:hover .ukie-icons{
+.footer a:hover .site-icons{
 }
 .footer .copyright{
 }
